@@ -6,7 +6,7 @@ var cors = require('cors');
 let PORT = process.env.PORT || 8000;
 
 app.use(cors({
-    origin:"http://localhost:5173", // client server
+    origin:"https://glittery-lamington-740e8d.netlify.app", // client server
     methods:["GET","POST"]
  }))
 
